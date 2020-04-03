@@ -1,15 +1,19 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
+import { photos } from "./photos";
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    photos
   },
-  mutations: {
+  getters: {
+    forContestant: state => name => {
+      return state.photos.filter(p => p.contestant === name);
+    }
   },
-  actions: {
-  },
-  modules: {
-  }
-})
+  mutations: {},
+  actions: {},
+  modules: {}
+});
