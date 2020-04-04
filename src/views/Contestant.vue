@@ -1,6 +1,6 @@
 <template>
   <div class="px-4">
-    <div>
+    <div class="mt-3">
       <router-link to="/"
         ><span class="text-xl font-black text-gray-600"
           >&larr; Back</span
@@ -11,7 +11,7 @@
       <p class="capitalize font-black text-5xl text-center">{{ name }}</p>
     </div>
 
-    <div class="my-12 px-6 text-center">
+    <div class="my-8 px-6 text-center">
       <p>
         <strong>Entries: </strong>
         <span>{{ photos.length }}</span>

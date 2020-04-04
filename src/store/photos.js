@@ -45,6 +45,21 @@ const photos = [
     src: "/photos/dad-9.jpg"
   },
   {
+    contestant: "dad",
+    number: "10",
+    src: "/photos/dad-10.jpg"
+  },
+  {
+    contestant: "dad",
+    number: "11",
+    src: "/photos/dad-11.jpg"
+  },
+  {
+    contestant: "dad",
+    number: "12",
+    src: "/photos/dad-12.jpg"
+  },
+  {
     contestant: "lol",
     number: "1",
     src: "/photos/lol-1.jpg"
